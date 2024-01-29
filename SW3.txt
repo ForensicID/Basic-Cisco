@@ -1,0 +1,14 @@
+SWITCH VIRTUAL INTERFACE
+vlan 10
+vlan 20
+int fa0/2
+switchport mode access
+switchport access vlan 10
+do show vlan brief
+int vlan 10
+ip address 192.168.10.1 255.255.255.0
+do show ip interface brief
+
+ACTIVATE LAYER 3
+ip routing
+do show ip route

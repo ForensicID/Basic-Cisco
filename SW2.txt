@@ -1,5 +1,6 @@
 interface fa0/5
 switchport mode trunk
+do sh int tr
 
 vlan 10
 interface fa0/1

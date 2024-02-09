@@ -9,3 +9,5 @@ ip dhcp pool VLAN10
 network 10.10.10.0 255.255.255.0
 default-router 10.10.10.1
 dns-server 8.8.8.8
+
+ip dhcp excluded-address 192.168.10.1

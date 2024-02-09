@@ -1,0 +1,9 @@
+Router(config)#router rip
+Router(config-router)#network 192.168.10.0
+Router(config-router)#network 10.10.10.0
+Router(config-router)#
+
+Router(config)#router rip
+Router(config-router)#version 2
+Router(config-router)#network 192.168.10.0
+Router(config-router)#network 10.10.10.0

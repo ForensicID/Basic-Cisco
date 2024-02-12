@@ -10,6 +10,7 @@ do show ip interface brief
 ADD IP ADD IN VLAN
 interface vlan 10
 ip address 192.168.10.1 255.255.255.0
+do sh interface VLAN10
 
 ACTIVATE LAYER 3
 ip routing

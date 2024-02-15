@@ -1,0 +1,8 @@
+#routing ip
+ip route 192.168.20.0 255.255.255.0 12.12.12.2
+ip route 192.168.10.0 255.255.255.0 12.12.12.1
+
+#config Access Control List
+access-list 1 deny 192.168.10.3 0.0.0.0
+access-list 1 permit any
+ip access-group 1 out

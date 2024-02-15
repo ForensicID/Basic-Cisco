@@ -1,3 +1,9 @@
+# Set dhcp ip telepon
+ip dhcp pool iptelepon
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.1
+option 150 ip 192.168.1.1
+
 #Setting VOIP
 telephony-service
 ip source-address 192.168.10.1 port 2000
@@ -6,12 +12,6 @@ max-ephones 2
 auto assign 1 to 2
 ephone-dn 1
 number 1001
-
-# Set dhcp ip telepon
-ip dhcp pool iptelepon
-network 192.168.1.0 255.255.255.0
-default-router 192.168.1.1
-option 150 ip 192.168.1.1
 
 #config switch
 vlan 10

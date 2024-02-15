@@ -1,4 +1,4 @@
-# Set dhcp ip telepon
+# Set dhcp ip telepon RO
 ip dhcp pool iptelepon
 network 192.168.1.0 255.255.255.0
 default-router 192.168.1.1

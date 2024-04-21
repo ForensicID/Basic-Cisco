@@ -16,3 +16,6 @@ dns-server 8.8.8.8
 
 EXCLUDE IP ADD
 ip dhcp excluded-address 192.168.10.1
+
+NEXT HOOP
+ip route 0.0.0.0 0.0.0.0 13.11.20.19
